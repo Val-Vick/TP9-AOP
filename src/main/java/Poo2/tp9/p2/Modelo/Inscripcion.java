@@ -1,4 +1,4 @@
-package Poo2.tp4.p3.modelo;
+package Poo2.tp9.p2.Modelo;
 
 import java.time.LocalDate;
 

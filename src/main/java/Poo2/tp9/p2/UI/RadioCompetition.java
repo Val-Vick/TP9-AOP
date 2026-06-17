@@ -1,20 +1,14 @@
-package Poo2.tp4.p3.UI;
+package Poo2.tp9.p2.UI;
 
-import Poo2.tp4.p3.modelo.Participante;
+import Poo2.tp9.p2.Aspectos.Log;
+import Poo2.tp9.p2.Modelo.Participante;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.GroupLayout;
+import javax.swing.*;
 import javax.swing.GroupLayout.Alignment;
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.border.EmptyBorder;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class RadioCompetition {
 	private JPanel contentPane;
@@ -74,10 +68,12 @@ public class RadioCompetition {
 		todosLosConcursos();
 	}
 
+	@Log
 	private void todosLosConcursos() {
 
 	}
 
+	@Log
 	private void saveInscription() {
 		if (validations()) {
 
@@ -158,6 +154,7 @@ public class RadioCompetition {
 														GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 												.addPreferredGap(ComponentPlacement.RELATED)
 												.addComponent(txtEmail, GroupLayout.PREFERRED_SIZE,
+
 														GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 												.addPreferredGap(ComponentPlacement.RELATED).addGroup(
 														gl_contentPane.createParallelGroup(Alignment.BASELINE)

@@ -1,6 +1,6 @@
-package Poo2.tp4.p3.persistencia;
+package Poo2.tp9.p2.Persistencia;
 
-import Poo2.tp4.p3.modelo.Concurso;
+import Poo2.tp9.p2.Modelo.Concurso;
 
 import java.util.List;
 

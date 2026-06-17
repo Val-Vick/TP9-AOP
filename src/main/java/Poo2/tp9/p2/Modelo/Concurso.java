@@ -1,6 +1,4 @@
-package Poo2.tp4.p3.modelo;
-
-import Poo2.tp4.p3.persistencia.RegistroInscripcion;
+package Poo2.tp9.p2.Modelo;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

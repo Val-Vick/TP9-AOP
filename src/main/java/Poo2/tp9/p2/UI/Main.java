@@ -1,7 +1,6 @@
-package Poo2.tp4.p3.UI;
+package Poo2.tp9.p2.UI;
 
 import javax.swing.SwingUtilities;
-
 public class Main {
 	public static void main(String[] args) {
 		SwingUtilities.invokeLater(new Runnable() {
@@ -20,5 +19,4 @@ public class Main {
 		new RadioCompetition();
 	}
 }
-
 
